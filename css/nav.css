@@ -1,38 +1,35 @@
-html {
-    font-size: 6.25%;
-}
-
-body {
-    background-color: rgb(255, 255, 255);
-    margin: 0;
-}
-
-#img-wrapper {
-    background-image: url("../img/logo2.png");
-    background-size: cover;
-    height:100%;
-    /*flex: 1;*/
-}
-
 #navbar {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: auto repeat(2, 1fr);
     justify-content: center;
     align-items: center;
     background-color: crimson; 
     font: bold 34rem stella nova;
 }
 
+.nav-child {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    transition: 0.3s;
+    padding: 0 16rem 0 16rem;
+}
+
+#navbar > div:hover {
+    background-color: orange; /* rgb(218, 57, 57); */
+}
+
 #logo-word {
     font-family: 'Highlight Montana';
-    margin: 0;
+    margin: 8rem; /* Forces height of entire nav elms for some reason */
     color: rgb(237, 237, 237);
     user-select: none;
 }
 
 #logo-word-wrapper {
     justify-self: left;
-    padding-left: 48rem;
+    padding: 0 48rem 0 48rem;
 }
 
 a, a:link, a:visited {
@@ -42,15 +39,11 @@ a, a:link, a:visited {
     cursor: pointer;
 }
 
-#navbar > div {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-    transition: 0.3s;
-    margin: 4rem;
+#img-wrapper {
+    background-image: url("../img/logo2.png");
+    background-size: cover;
+    height:100%;
+    /*flex: 1;*/
 }
 
-#navbar > div:hover {
-    background-color: orange; /* rgb(218, 57, 57); */
-}
+
