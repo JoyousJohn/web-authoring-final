@@ -14,29 +14,35 @@
     height: 100%;
     transition: 0.3s;
     padding: 0 16rem 0 16rem;
+    cursor: pointer;
 }
 
-#navbar > div:hover {
+.nav-child:hover {
     background-color: orange; /* rgb(218, 57, 57); */
 }
 
-#logo-word {
+#logo-word-div {
     font-family: 'Highlight Montana';
     margin: 8rem; /* Forces height of entire nav elms for some reason */
     color: rgb(237, 237, 237);
-    user-select: none;
-}
-
-#logo-word-wrapper {
     justify-self: left;
     padding: 0 48rem 0 48rem;
+    transition: 0.2s;
+}
+
+#logo-word-div > a {
+    transition: 0.2s;
+}
+
+#logo-word-div > a:hover {
+    cursor: pointer;
+    color: orange;
 }
 
 a, a:link, a:visited {
     color: white;
     text-decoration: none;
     color: rgb(237, 237, 237);
-    cursor: pointer;
 }
 
 #img-wrapper {
