@@ -1,10 +1,14 @@
 #navbar {
-    display: grid;
-    grid-template-columns: auto repeat(2, 1fr);
-    justify-content: center;
-    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    /*align-items: center;*/
     background-color: crimson; 
     font: bold 34rem stella nova;
+    padding: 2rem;
+}
+
+#nav-btn-container {
+    display: flex;
 }
 
 .nav-child {
@@ -23,11 +27,10 @@
 
 #logo-word-div {
     font-family: 'Highlight Montana';
-    margin: 8rem; /* Forces height of entire nav elms for some reason */
     color: rgb(237, 237, 237);
-    justify-self: left;
-    padding: 0 48rem 0 48rem;
+    padding-left: 12rem;
     transition: 0.2s;
+    margin-bottom: 8rem;
 }
 
 #logo-word-div > a {
