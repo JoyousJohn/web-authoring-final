@@ -1,4 +1,4 @@
-#in-depth {
+#in-depth, #general-resources {
     margin: 0 10%;
 }
 
@@ -8,17 +8,17 @@ h1 {
     text-align: center;
 }
 
-.in-depth-child {
+.in-depth-child, .general-child {
     margin-top: 36rem;
 }
 
-.in-depth-child > p {
+.in-depth-child > p, .general-child > p {
     font: 24rem 'Steamflix Montserrat';
     color: rgb(66, 66, 66);
     margin: 0;
 }
 
-.in-depth-child li {
+.in-depth-child li, .general-child li {
     font: 20rem 'Steamflix Montserrat';
     color: rgb(96, 96, 96);
 }

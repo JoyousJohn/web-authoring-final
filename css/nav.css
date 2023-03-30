@@ -48,10 +48,14 @@ a, a:link, a:visited {
 }
 
 #img-wrapper {
-    background-image: url("../img/logo2.png");
-    background-size: cover;
-    height:100%;
-    /*flex: 1;*/
+    flex: 1;
+    height: auto;
+    width: 100%;
+    margin-left: 12rem;
+    background-image: url("../img/colored.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 6px;
 }
 
 
