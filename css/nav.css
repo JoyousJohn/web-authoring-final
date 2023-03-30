@@ -50,12 +50,12 @@ a, a:link, a:visited {
 #img-wrapper {
     flex: 1;
     height: auto;
-    width: 100%;
+    width: 100%; 
     margin-left: 12rem;
+    /*background-image: url("../img/slow_man.gif");*/
     background-image: url("../img/colored.png");
     background-size: contain;
     background-repeat: no-repeat;
-    margin: 6px;
+    margin: 6px; /* hack to shrink the image */
+    /*margin-bottom: 15px; for gif */
 }
-
-

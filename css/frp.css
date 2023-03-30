@@ -1,4 +1,4 @@
-#in-depth, #general-resources {
+#in-depth, #general-resources, #notable-figures {
     margin: 0 10%;
 }
 
@@ -21,4 +21,44 @@ h1 {
 .in-depth-child li, .general-child li {
     font: 20rem 'Steamflix Montserrat';
     color: rgb(96, 96, 96);
+}
+
+#notable-figures {
+
+}
+
+h2 { /* Used for notable figures */
+    font: 38rem stella nova;
+    margin: 24rem 0 0 0;
+}
+
+a.guy-link {
+    font: 28rem Arial;
+    color: rgb(38, 0, 255);
+    text-decoration: underline;
+    margin-bottom: 24rem;
+    transition: 0.33s;
+}
+
+a.guy-link:hover {
+    color: orange;
+}
+
+.guy-info {
+    display: grid;
+    grid-template-columns: 60% auto;
+    gap: 16rem;
+    margin-top: 24rem;
+    /*align-items: center;*/
+}
+
+.guy-info > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.guy-summary {
+    font: 24rem 'Steamflix Montserrat';
+    color: rgb(67, 67, 67);
 }
