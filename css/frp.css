@@ -51,18 +51,22 @@ a.guy-link:hover {
     /*align-items: center;*/
 }
 
-.guy-info > img {
+.guy-info img {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
 
 .eluid {
-    grid-template-columns: 59% auto;
+    grid-template-columns: 57% auto;
 }
 
 .roger {
     grid-template-columns: auto 57%;
+}
+
+.david {
+    grid-template-columns: 57% auto;
 }
 
 .guy-summary {
@@ -70,3 +74,7 @@ a.guy-link:hover {
     color: rgb(67, 67, 67);
     text-align: left;
 }
+
+figure { margin: 0; }
+
+figcaption { margin-top: 1rem; font: 14em Arial; }
