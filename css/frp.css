@@ -46,7 +46,6 @@ a.guy-link:hover {
 
 .guy-info {
     display: grid;
-    grid-template-columns: 60% auto;
     gap: 16rem;
     margin-top: 24rem;
     /*align-items: center;*/
@@ -58,7 +57,16 @@ a.guy-link:hover {
     object-fit: cover;
 }
 
+.eluid {
+    grid-template-columns: 59% auto;
+}
+
+.roger {
+    grid-template-columns: auto 57%;
+}
+
 .guy-summary {
     font: 24rem 'Steamflix Montserrat';
     color: rgb(67, 67, 67);
+    text-align: left;
 }

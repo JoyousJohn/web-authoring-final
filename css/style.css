@@ -3,6 +3,10 @@ html {
     overflow-y: scroll; /* stop scrollbar from repositioning page */
 }
 
+::selection {
+    background: lime; /* ffb7b7 <-- light red */
+}
+
 body {
     background-color: rgb(241, 241, 241);
     margin: 0;
