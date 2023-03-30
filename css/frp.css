@@ -1,0 +1,24 @@
+#in-depth {
+    margin: 0 10%;
+}
+
+h1 {
+    font: 38rem stella nova;
+    margin: 24rem 0 18rem 0;
+    text-align: center;
+}
+
+.in-depth-child {
+    margin-top: 36rem;
+}
+
+.in-depth-child > p {
+    font: 24rem 'Steamflix Montserrat';
+    color: rgb(66, 66, 66);
+    margin: 0;
+}
+
+.in-depth-child li {
+    font: 20rem 'Steamflix Montserrat';
+    color: rgb(96, 96, 96);
+}

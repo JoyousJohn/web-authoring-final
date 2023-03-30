@@ -4,26 +4,25 @@
     /*align-items: center;*/
     background-color: crimson; 
     font: bold 34rem stella nova;
-    padding: 2rem;
 }
 
 #nav-btn-container {
     display: flex;
 }
 
-.nav-child {
+.nav-link {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center;    
+    padding: 0 16rem 0 16rem;
     height: 100%;
     transition: 0.3s;
-    padding: 0 16rem 0 16rem;
     cursor: pointer;
 }
 
-.nav-child:hover {
-    background-color: orange; /* rgb(218, 57, 57); */
-}
+.nav-link:hover { background-color: orange; /* rgb(218, 57, 57); */ }
+
+.nav-selected { background-color: orange; }
 
 #logo-word-div {
     font-family: 'Highlight Montana';

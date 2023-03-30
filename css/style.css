@@ -1,5 +1,6 @@
 html {
     font-size: 6.25%;
+    overflow-y: scroll; /* stop scrollbar from repositioning page */
 }
 
 body {
