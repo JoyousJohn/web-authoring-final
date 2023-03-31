@@ -1,8 +1,17 @@
+body {
+    height: 100vh;
+}
+
 #hero {
     position: fixed;
     top: 0;
-    width: 100%;
     z-index: -1;
+    height: 100%;
+    width: 100%;
+    background-image: url("../img/hero.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 } 
 
 .home-hover:hover {
