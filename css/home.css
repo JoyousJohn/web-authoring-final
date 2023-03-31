@@ -1,0 +1,15 @@
+#hero {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+} 
+
+.home-hover:hover {
+    background-color: transparent;
+}
+
+.home-hover > a:hover, #logo-word-div-home > a:hover {
+    color: black;
+    transition: 0.3s;
+}
