@@ -59,3 +59,8 @@ a, a:link, a:visited {
     margin: 6px; /* hack to shrink the image */
     /*margin-bottom: 15px; for gif */
 }
+
+.home-hover:hover { background-color: transparent; } /* override nav.css */
+
+.home-hover > a:hover, #logo-word-div-home > a:hover { color: black; ;transition: 0.2s; } /* override nav.css */
+

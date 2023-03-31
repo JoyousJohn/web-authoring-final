@@ -1,6 +1,4 @@
-body {
-    height: 100vh;
-}
+body { height: 100vh; }
 
 #hero {
     position: fixed;
@@ -9,16 +7,65 @@ body {
     height: 100%;
     width: 100%;
     background-image: url("../img/hero.png");
-    background-position: center;
+    background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
 } 
 
-.home-hover:hover {
-    background-color: transparent;
+#mission-container { display: flex; justify-content: space-between; }
+
+#mission {
+    display: flex;
+    flex-direction: column;
+    max-width: 46%;
+    background-color: rgba(0, 0, 0, 0.75);
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    padding: 10rem 36rem 10rem 48rem;
 }
 
-.home-hover > a:hover, #logo-word-div-home > a:hover {
-    color: black;
-    transition: 0.3s;
+#mission-title {
+    font: 48rem stella nova;
+    color: rgb(242, 242, 242);
+    margin: 0;
+}
+
+.mission-desc {
+    font: 21rem 'Steamflix Montserrat';
+    color: rgb(224, 224, 224);
+    margin: 0;
+}
+
+#showcase-container {
+    display: flex;
+    flex-direction: column;
+    margin-right: 16rem;
+}
+
+.showcase-item {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 25px;
+    height: max-content;
+}
+
+.showcase-item-title {
+    font: 36rem stella nova;
+    color: rgb(118, 124, 255);
+    margin: 0;
+    padding-right: 30rem;
+    padding-left: 30rem;
+}
+
+.showcase-wottle {
+    background-image: url('../img/showcase/wottle.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-bottom: 100%;
+    display: block;
+    position: relative;
+    margin: 0 15px 0 15px;
+    border-radius: 15px;
+    margin-top: 5rem;
 }
