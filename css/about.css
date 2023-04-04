@@ -1,0 +1,29 @@
+#body-content {
+    margin: 24rem 10%;
+}
+
+.person {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 5%;
+    text-align: center;
+    margin-bottom: 24em;
+}
+
+.person > * {
+    border: 3px solid red;
+}
+
+.person > img {
+    max-width: 100%;
+}
+
+.person-about > h3 {
+    font: 64rem bobcaygeon plain brk;
+    margin: 0;
+}
+
+.person-about > p {
+    font: 42rem bobcaygeon plain brk;
+    margin: 0;
+}
