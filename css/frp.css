@@ -1,4 +1,4 @@
-#in-depth, #general-resources, #notable-figures {
+#in-depth, #general-resources, #notable-figures, #digital-resources {
     margin: 0 10%;
 }
 
@@ -21,10 +21,6 @@ h1 {
 .in-depth-child li, .general-child li {
     font: 20rem 'Steamflix Montserrat';
     color: rgb(96, 96, 96);
-}
-
-#notable-figures {
-
 }
 
 h2 { /* Used for notable figures */
@@ -79,8 +75,44 @@ figure { margin: 0; }
 
 figcaption { margin-top: 1rem; font: 14em Arial; color: rgb(33, 33, 33) }
 
-#online-rss-grid { display: grid; grid-template-columns: repeat(3, 1fr); }
+#online-rss-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 15em; margin-bottom: 30rem;}
 
-.rss-col {
-    border: 5px solid black;
+.rss-col > button {
+    font: 48rem Black;
+    width: 100%;
+    height: 70px;
+}
+
+.rss-col > button:hover {
+    cursor: pointer;
+}
+
+.rss-desc {
+    font: 28rem 'Steamflix Montserrat';
+    margin: 0;
+    color: rgb(41, 41, 41);
+}
+
+.rss-link {
+    display: block;
+    text-align: center;
+    font: 28rem 'Steamflix Montserrat';
+}
+
+#btn-strava {
+    background: url('../img/online/strava.png') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#btn-rruning {
+    background: url('../img/online/rruning.png');
+    background-size: contain;
+    background-position: center;
+}
+
+#btn-runnersworld {
+    background: url('../img/online/runnersworld.png') no-repeat;
+    background-size: cover;
+    background-position: center;
 }

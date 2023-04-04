@@ -43,7 +43,7 @@
     color: orange;
 }
 
-a, a:link, a:visited {
+#navbar a, #navbar a:link, #navbar a:visited {
     color: white;
     text-decoration: none;
     color: rgb(237, 237, 237);
