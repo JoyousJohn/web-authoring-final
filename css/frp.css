@@ -2,6 +2,13 @@
     margin: 0 10%;
 }
 
+.general-child > p, .general-child li {
+    transition: opacity 1s;
+    opacity: 0;
+}
+
+.guy-wrap { opacity: 0; transition: opacity 1s; }
+
 h1 {
     font: 38rem stella nova;
     margin: 24rem 0 18rem 0;

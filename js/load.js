@@ -2,7 +2,7 @@ $(document).ready(function () {
 
     $('#mission').slideDown('slow');
     $('#showcase-container').slideDown(1500);
-    $('#hero').fadeIn();
+    $('#hero').fadeIn(750);
     
     print('loaded')
 
