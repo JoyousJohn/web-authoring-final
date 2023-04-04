@@ -78,3 +78,9 @@ a.guy-link:hover {
 figure { margin: 0; }
 
 figcaption { margin-top: 1rem; font: 14em Arial; color: rgb(33, 33, 33) }
+
+#online-rss-grid { display: grid; grid-template-columns: repeat(3, 1fr); }
+
+.rss-col {
+    border: 5px solid black;
+}

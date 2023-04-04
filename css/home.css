@@ -50,6 +50,8 @@ body { height: 100vh; }
     background-color: rgba(0, 0, 0, 0.7);
     border-radius: 25px;
     margin-bottom: 5vh;
+    padding: 0 15px;
+    text-align: center;
 }
 
 .showcase-item-title {
@@ -67,9 +69,19 @@ body { height: 100vh; }
     background-position: center;
     padding: 150px;
     border-radius: 25px;
-    margin-bottom: 30px;
+    margin-bottom: 5px;
+}
+
+.showcase-desc {
+    font: 24rem stella nova;
+    color: rgb(0, 187, 255);
+    text-decoration: underline;
+    margin: 0;
+    margin-bottom: 10rem;
 }
 
 .showcase-wottle { background-image: url('../img/showcase/wottle.png'); }
 
 .showcase-nb { background-image: url('../img/showcase/1080.png'); }
+
+.showcase-bigchill { background-image: url('../img/showcase/bigchill.png'); }

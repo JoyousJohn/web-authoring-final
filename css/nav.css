@@ -4,6 +4,7 @@
     /*align-items: center;*/
     background-color: crimson; 
     font: bold 34rem stella nova;
+    user-select: none;
 }
 
 #nav-btn-container {
@@ -17,10 +18,11 @@
     padding: 0 16rem 0 16rem;
     height: 100%;
     transition: 0.3s;
-    cursor: pointer;
 }
 
 .nav-link:hover { background-color: orange; /* rgb(218, 57, 57); */ }
+
+.nav-link > a:hover { cursor: pointer; }
 
 .nav-selected { background-color: orange; }
 
