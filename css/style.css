@@ -18,3 +18,12 @@ body {
     font: 32rem 'highlight montana';
     color: black;
 }
+
+#copyright-home {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    margin-left: 10px;
+    font: 18rem 'highlight montana';
+    color: white;
+}
