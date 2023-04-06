@@ -11,3 +11,8 @@ img {
     height: 300px;
     border: 5px solid red;
 }
+
+h1 {
+    font: 64rem Arial;
+    text-align: center;
+}
