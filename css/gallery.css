@@ -1,14 +1,21 @@
 #gallery-container {
     display: grid;
-    width: 100%;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
     grid-template-columns: repeat(3, 1fr);
     gap: 32rem;
-    margin: 16rem;
+    margin: 64rem;
+}
+
+#gallery-sum {
+    font: 24rem Arial;
+    margin: 5%;
 }
 
 img {
-    width: 90%;
-    height: 300px;
+    max-width: 100%;
+    max-height: 100%;
     border: 5px solid red;
 }
 
