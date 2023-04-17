@@ -59,7 +59,7 @@
     width: 100%; 
     margin-left: 12rem;
     /*background-image: url("../img/slow_man.gif");*/
-    background-image: url("../favicon.png");
+    background-image: url("../favicon.svg");
     background-size: contain;
     background-repeat: no-repeat;
     margin: 6px; /* hack to shrink the image */
