@@ -1,0 +1,27 @@
+#body-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h2 {
+    font: 38rem stella nova;
+    margin: 0;
+    margin-top: 24rem;
+}
+
+h4 {
+    font: 28rem stella nova;
+    margin: 0;
+    color: rgb(120, 120, 120);
+}
+
+#map {
+    background-image: url('../img/jon_trail_map.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 827px;
+    width: 80%;
+    margin-top: 20rem;
+}

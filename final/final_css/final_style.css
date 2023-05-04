@@ -1,0 +1,29 @@
+html {
+    font-size: 6.25%;
+    overflow-y: scroll; /* stop scrollbar from repositioning page */
+}
+
+::selection {
+    background: lime; /* ffb7b7 <-- light red */
+}
+
+body {
+    background-color: rgb(241, 241, 241);
+    margin: 0;
+}
+
+#copyright {
+    width: 100%;
+    text-align: center;
+    font: 24rem 'highlight montana';
+    color: black;
+}
+
+#copyright-home {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    margin-left: 10px;
+    font: 18rem 'highlight montana';
+    color: white;
+}

@@ -23,13 +23,13 @@ body {
     max-width: 46%;
     height: 100%;
     padding: 10rem 36rem 10rem 48rem;
-    border-top-right-radius: 25px;
-    border-bottom-right-radius: 25px;
+    border-top-right-radius: 4vh;
+    border-bottom-right-radius: 4vh;
     background-color: rgba(0, 0, 0, 0.75);
 }
 
 #mission-title {
-    font: 48rem stella nova;
+    font: 6.75vh stella nova;
     color: rgb(242, 242, 242);
     margin: 0;
 }
@@ -38,6 +38,7 @@ body {
     font: 3vh 'Steamflix Montserrat';
     color: rgb(224, 224, 224);
     margin: 0;
+    line-height: 1.35;
 }
 
 #showcase-container {
@@ -72,7 +73,7 @@ body {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    padding: 150px;
+    padding: 10vw;
     border-radius: 25px;
     margin-bottom: 5px;
 }
