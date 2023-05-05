@@ -10,7 +10,10 @@
     <link rel="stylesheet" href="final_css/final_style.css">
     <link rel="stylesheet" href="final_css/final_nav.css">
     <link rel="stylesheet" href="final_css/final_visual.css">
-    <link rel="icon" type="image/x-icon" href="favicon.svg">
+    <link rel="icon" type="image/x-icon" href="../favicon.svg">
+    <script src="https://kit.fontawesome.com/9fec56898e.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.3/jquery.scrollTo.min.js"></script>
 </head>
 
 <body>
@@ -24,6 +27,7 @@
             <div class="nav-link"><a href="final_reviews.html">REVIEWS</a></div>
             <div class="nav-link"><a href="final_gallery.html">GALLERY</a></div>
             <div class="nav-link"><a href="final_frp.html">FRP</a></div>
+            <div class="nav-link"><a href="final_feature.html">FEATURE</a></div>
             <div class="nav-link nav-selected"><a href="final_visual.html">VISUAL</a></div>
             <div class="nav-link"><a href="final_additional.html">LIFE</a></div>
             <div class="nav-link"><a href="final_about.html">ABOUT</a></div>
@@ -35,8 +39,27 @@
 
         <h2>Jonathan's Woods Trail Map</h2>
         <h4>Denville, NJ</h4>
+        <h5>[Map doesn't contain the two other nearby networks which contain the 20+ miles of trail mentioned on other pages!]</h5>
 
-        <div id="map"></div>
+        <div id="map">
+
+            <i class="fa-solid fa-map-pin" id="starting-point-pin" style="top: 600rem; left: 39%;" onclick="$.scrollTo('#starting-point', 'normal')"></i>
+            <i class="fa-solid fa-map-pin" id="road-view-pin" style="top: 550rem; left: 42%;" onclick="$.scrollTo('#road-view', 'normal')"></i>
+            <i class="fa-solid fa-map-pin" id="nyc-view-pin" style="top: 520rem; left: 44%;" onclick="$.scrollTo('#nyc-view', 'normal')"></i>
+            <i class="fa-solid fa-map-pin" id="orange-trail-bridge-pin" style="top: 20rem; left: 38%;" onclick="$.scrollTo('#orange-trail-bridge', 'normal')"></i>
+            <i class="fa-solid fa-map-pin" id="beaver-brook-river-pin" style="top: 75rem; left: 35%;" onclick="$.scrollTo('#beaver-brook-river', 'normal')"></i>
+            <i class="fa-solid fa-map-pin" id="hawkwatch-pin" style="top: 15rem; left: 15%;" onclick="$.scrollTo('#hawkwatch', 'normal')"></i>
+            <i class="fa-solid fa-map-pin" id="random-pond-pin" style="top: 88rem; left: 41%;" onclick="$.scrollTo('#random-pond', 'normal')"></i>
+            <i class="fa-solid fa-map-pin" id="furnace-pin" style="top: 40rem; left: 53%;" onclick="$.scrollTo('#furnace', 'normal')"></i>
+            <i class="fa-solid fa-map-pin" id="hog-pen-pin" style="top: 365rem; left: 64%;" onclick="$.scrollTo('#hog-pen', 'normal')"></i>
+            <i class="fa-solid fa-map-pin" id="brook-pond-pin" style="top: 322rem; left: 15%;" onclick="$.scrollTo('#brook-pond', 'normal')"></i>
+            <i class="fa-solid fa-map-pin" id="shack-pin" style="top: 90rem; left: 76%;" onclick="$.scrollTo('#shack', 'normal')"></i>
+            <i class="fa-solid fa-map-pin" id="washing-machine-pin" style="top: 460rem; left: 24%;" onclick="$.scrollTo('#washing-machine', 'normal')"></i>
+            <i class="fa-solid fa-map-pin" id="irene-pin" style="top: 240rem; left: 26%;" onclick="$.scrollTo('#irene', 'normal')"></i>
+            <i class="fa-solid fa-map-pin" id="jersey-bench-pin" style="top: 357rem; left: 26.5%;" onclick="$.scrollTo('#jersey-bench', 'normal')"></i>
+            <!-- <img src="img/pin.png" style="width: 40px; position: absolute; left: 0px; top: 0px;"> -->
+
+        </div>
 
         <div id="map-about">
 
@@ -56,7 +79,7 @@
                 </label>
             </div>
 
-            <div id="road-view">
+            <div id="nyc-view">
                 <img src="img/map/ny_view.png">
                 <label>
                     <p class="label-head">New York Skyline Overlook</p>
@@ -64,7 +87,7 @@
                 </label>
             </div>
 
-            <div id="road-view">
+            <div id="orange-trail-bridge">
                 <img src="img/map/bridge.png">
                 <label>
                     <p class="label-head">Orange Trail Bridge</p>
@@ -72,7 +95,7 @@
                 </label>
             </div>
 
-            <div id="road-view" style="flex-direction: column;">
+            <div id="beaver-brook-river" style="flex-direction: column;">
                 <!-- <img src="img/map/bridge_view.png"> -->
                 <img src="img/map/bridge_view2.png" style="max-width: 100%;">
                 <label>
@@ -81,7 +104,7 @@
                 </label>
             </div>
 
-            <div id="road-view" style="flex-direction: column;">
+            <div id="hawkwatch" style="flex-direction: column;">
                 <img src="img/map/wildcat.png" style="max-width: 100%;">
                 <label>
                     <p class="label-head">Hawkwatch</p>
@@ -89,7 +112,7 @@
                 </label>
             </div>
 
-            <div id="road-view" style="flex-direction: column;">
+            <div id="random-pond" style="flex-direction: column;">
                 <img src="img/map/pond.png" style="max-width: 100%;">
                 <label>
                     <p class="label-head">Random... Pond?</p>
@@ -97,7 +120,7 @@
                 </label>
             </div>
 
-            <div id="road-view">
+            <div id="furnace">
                 <img src="img/map/chimney.png">
                 <label>
                     <p class="label-head">Furnace</p>
@@ -105,7 +128,7 @@
                 </label>
             </div>
 
-            <div id="road-view">
+            <div id="hog-pen">
                 <img src="img/map/hogspen.png">
                 <label>
                     <p class="label-head">Hog Pen</p>
@@ -113,7 +136,7 @@
                 </label>
             </div>
 
-            <div id="road-view">
+            <div id="brook-pond">
                 <img src="img/map/beaver_brook_pond.png">
                 <label>
                     <p class="label-head">Beaver Brook Pond</p>
@@ -121,7 +144,7 @@
                 </label>
             </div>
 
-            <div id="road-view">
+            <div id="shack">
                 <img src="img/map/shack.png">
                 <label>
                     <p class="label-head">Shack</p>
@@ -129,7 +152,7 @@
                 </label>
             </div>
 
-            <div id="road-view">
+            <div id="washing-machine">
                 <img src="img/map/washing_machine.png">
                 <label>
                     <p class="label-head">Washing Machine</p>
@@ -137,7 +160,7 @@
                 </label>
             </div>
 
-            <div id="road-view">
+            <div id="irene">
                 <img src="img/map/irene.png">
                 <label>
                     <p class="label-head">Pine Grove Remains</p>
@@ -145,7 +168,7 @@
                 </label>
             </div>
 
-            <div id="road-view" style="flex-direction: column;">
+            <div id="bench" style="flex-direction: column;">
                 <img src="img/map/fav_bench.png" style="max-width: 100%;">
                 <label>
                     <p class="label-head">Jersey Bench</p>
@@ -154,8 +177,6 @@
             </div>
 
         </div>
-
-        
 
     </div>
 

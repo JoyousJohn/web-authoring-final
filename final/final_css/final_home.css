@@ -1,0 +1,93 @@
+body {
+    background-color: rgb(60, 94, 169);
+}
+
+#hero {
+    position: fixed;
+    display: none;
+    top: 0;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    background-image: url("../../img/hero_19200p.png");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+} 
+
+#mission-container { display: flex; justify-content: space-between; }
+
+#mission {
+    display: flex;
+    flex-direction: column;
+    max-width: 46%;
+    height: 100%;
+    padding: 10rem 36rem 10rem 48rem;
+    border-top-right-radius: 4vh;
+    border-bottom-right-radius: 4vh;
+    background-color: rgba(0, 0, 0, 0.75);
+}
+
+#mission-title {
+    font: 6.75vh stella nova;
+    color: rgb(242, 242, 242);
+    margin: 0;
+}
+
+.mission-desc {
+    font: 3vh 'Steamflix Montserrat';
+    color: rgb(224, 224, 224);
+    margin: 0;
+    line-height: 1.35;
+}
+
+#showcase-container {
+    display: flex;
+    flex-direction: column;
+    margin-right: 16rem;
+}
+
+#showcase-container > a { text-decoration: none; }
+
+.showcase-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 25px;
+    margin-bottom: 5vh;
+    padding: 0 15px;
+    text-align: center;
+}
+
+.showcase-item-title {
+    font: 36rem stella nova;
+    color: rgb(118, 124, 255);
+    margin: 0;
+    padding-right: 30rem;
+    padding-left: 30rem;
+}
+
+.showcase-media {
+    margin-top: 3px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 10vw;
+    border-radius: 25px;
+    margin-bottom: 5px;
+}
+
+.showcase-desc {
+    font: 24rem stella nova;
+    color: rgb(0, 187, 255);
+    text-decoration: underline;
+    margin: 0;
+    margin-bottom: 10rem;
+}
+
+.showcase-wottle { background-image: url('../../img/showcase/wottle.png'); }
+
+.showcase-nb { background-image: url('../../img/showcase/1080.png'); }
+
+.showcase-bigchill { background-image: url('../../img/showcase/bigchill.png'); }

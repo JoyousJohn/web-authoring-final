@@ -14,7 +14,14 @@ h2 {
 h4 {
     font: 28rem stella nova;
     margin: 0;
+    color: rgb(85, 85, 85);
+}
+
+h5 {
+    font: 18rem stella nova;
+    margin: 0;
     color: rgb(120, 120, 120);
+    text-align: center;
 }
 
 #map {
@@ -24,6 +31,7 @@ h4 {
     height: 827px;
     width: 80%;
     margin-top: 20rem;
+    position: relative;
 }
 
 #map-about {
@@ -35,6 +43,20 @@ h4 {
     padding-bottom: 32px;
     margin-bottom: 32px;
     display: flex; justify-content: center; align-items: center;
+}
+
+#map > i {
+    position: absolute;
+    font-size: 30px;
+    color: red;
+    top: 0px;
+    left: 0px;
+    width: 30px;
+    height: 30px;
+}
+
+#map > i:hover {
+    cursor: pointer;
 }
 
 img {
