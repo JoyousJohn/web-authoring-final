@@ -1,5 +1,14 @@
 #body-content {
+    display: flex;
+    justify-content: center;
+}
+
+#life-container {
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
 }
 
 h1 {
@@ -7,7 +16,7 @@ h1 {
 }
 
 h2 {
-    font: 26rem stella nova;
+    font: 28rem stella nova;
     text-align: center;
 }
 
@@ -17,4 +26,20 @@ h3 {
     margin: 0;
     color: black;
     margin-top: 2.5em;
+}
+
+span {
+    font: 24rem stella nova;
+    color: rgb(44, 44, 44);
+    text-align: left;
+}
+
+#life-row {
+    display: flex;
+    gap: 15px;
+}
+
+#life-row > img {
+   max-width: 57%; /* lucky number :) */
+   height: auto;
 }
