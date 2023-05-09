@@ -35,3 +35,12 @@ li {
     line-height: 1.2;
     text-align: left;
 }
+
+figcaption {
+    font: 16rem Arial;
+    margin-top: 3px;
+}
+
+img {
+    max-width: 100%;
+}
